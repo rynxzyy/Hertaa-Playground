@@ -41,15 +41,15 @@
     const loadData = await database.read()
 	if (loadData && Object.keys(loadData).length === 0) {
 		global.db = {
-			users: {},
-			groups: {},
-			set: {
-                self: false,
-                read: false,
-                call: false,
-                typing: false
-            },
-			...(loadData || {}),
+		    users: {},
+		    groups: {},
+		    set: {
+                        self: false,
+                        read: false,
+                        call: false,
+                        typing: false
+                    },
+		    ...(loadData || {}),
 		}
 		await database.write(global.db)
 	} else {
