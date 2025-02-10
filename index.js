@@ -44,7 +44,7 @@
 			users: {},
 			groups: {},
 			set: {
-                self: true,
+                self: false,
                 read: false,
                 call: false,
                 typing: false
