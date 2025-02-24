@@ -1,4 +1,4 @@
-# Hertaa-Playground: A Simple WhatsApp Bot Base (NekoBot-Based)
+# Hertaa-Playground (NekoBot-Based)
 
 ![Thumb](https://files.catbox.moe/cfwa8y.png)
 
