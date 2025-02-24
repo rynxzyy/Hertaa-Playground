@@ -2,7 +2,7 @@ const fs = require('node:fs');
 
 global.botName = 'hertaa'
 global.owner = ['62xxx']
-global.prefix = ['!']
+global.prefix = ['!', '.']
 global.customPairCode = 'HERTAAAA'
 global.tz = 'Asia/Jakarta'
 
@@ -13,7 +13,7 @@ global.set = {
     typing: true
 }
 
-global.headertxt = '😼 Hertaa Playground-!!'
+global.headertxt = 'Hertaa Playground-!!'
 global.banner = fs.readFileSync('./database/media/banner.jpg')
 global.docs = fs.readFileSync('./database/media/docs.txt')
 global.footertxt = 'Hertaa based on NekoBott'
