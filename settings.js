@@ -8,9 +8,9 @@ global.tz = 'Asia/Jakarta'
 
 global.set = {
     self: false,
-    read: true,
-    call: true,
-    typing: true
+    read: false,
+    call: false,
+    typing: false
 }
 
 global.headertxt = 'Hertaa Playground-!!'
