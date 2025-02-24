@@ -14,8 +14,8 @@ global.set = {
 }
 
 global.headertxt = '😼 Hertaa Playground-!!'
-global.banner = fs.readFileSync('./lib/media/banner.jpg')
-global.docs = fs.readFileSync('./lib/media/docs.txt')
+global.banner = fs.readFileSync('./database/media/banner.jpg')
+global.docs = fs.readFileSync('./database/media/docs.txt')
 global.footertxt = 'Hertaa based on NekoBott'
 
 global.pack = {
